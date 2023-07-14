@@ -55,7 +55,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 function showPerson() {
   const item = reviews[currentItem];
-  img.scr = item.img;
+  img.src = item.img;
   author.textContent = item.name;
   job.textContent = item.job;
   info.textContent = item.text;
